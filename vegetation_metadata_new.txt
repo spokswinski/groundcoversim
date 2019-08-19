@@ -1,0 +1,364 @@
+PROJECT ID		RC-2243 Patterns and Processes	
+FUNDING SOURCE		Department of Defense, Strategic Environmental Research and Development Program (SERDP)
+DATASET ID		groundcover_simulation_data.xlsx			
+DATASET LOCATION 	https://github.com/spokswinski/groundcoversim			
+DATASET TITLE		Fall Groundcover Data			
+				
+INVESTIGATOR INFORMATION : 
+
+PI
+First Name 	E. Louise	
+Last Name  	Loudermilk	
+Address line 1	Forestry Sciences Laboratory, Center for Forest Disturbance Science	
+Address line 2	320 Green St.					
+City  		Athens		
+State		GA		
+Zip Code  	30602		
+Country		USA		
+EMAIL		eva.l.loudermilk@usda.gov
+
+
+Data manager	
+First Name  	Scott	
+Last Name  	Pokswinski		
+Address line 1	Tall Timbers	
+Address line 2	13093 Henry Beadel Dr		
+City  		Tallahassee	
+State  		FL
+Zip Code  	32312
+Country		USA	
+EMAIL		spokswinski@talltimbers.org
+	
+			
+DATA FILE INFORMATION: 				
+Data File URL			https://github.com/spokswinski/groundcoversim	
+Data File Name			groundcover_simulation_data		
+Beginning Date			9/1/2012			
+End Date			10/16/2016			
+Number of Data Records		5 data sets	
+Data format			Data sets are organized by year in separate tabs within a single Excel workbook
+Availability Status		with permission- Contact person: Dr. Joseph O'Brien: joseph.j.obrien@usda.gov			
+Quality Control Information	double data entry, species code verification		
+Log of Changes			N/A
+							
+				
+RESEARCH LOCATION: 		Site 1		
+Location name			Eglin Airforce Base, Florida		
+Habitat type/types		Longleaf pine (Pinus palustris Mill.) Sandhills and Flatwoods			
+
+				
+TAXONOMIC COVERAGE:				
+Taxonomic group			Groundcover plants			
+Taxonomic authority		Wunderlin and Hanson 2nd ed.			
+			
+				
+KEYWORDS			grondcover, vegetation, diversity, fire ecology			
+		
+		
+ABSTRACT:				
+Longleaf pine ecosystems are rich in plant species and represent the dominant upland forest type in several southeastern military bases. In order to manage these forests to fulfill military objectives and to conserve this unique natural resource, we investigated mechanisms of diversity and neutral theory. We coupled a series of field experiments with data mining exercises to help managers meet their objectives for monitoring the impact of various activities on the understory plant community. The data collected from these experiments will then go towards the development of modeling tools to help evaluate different management techniques based on links between overstory structure, fire and understory plant diversity. Vegetation sampling techniques and data are critical components to link forest structure measured by remote sensing to interaction diversity and to evaluate the neutral theory of biological diversity, and fire as random mortality agent, as a possible mechanisms for high diversity in areas of with frequent low-intensity fires.  Research took place on Eglin AFB, FL from fall 2012 through fall 2016. All groundcover monitoring plots were burned during the springs of 2013 and 2015, and monitored every fall from 2012 to 2016. 			
+				
+METHODS: 				
+Plot selection:	Monitoring plot locations were co-located within Jackson Guard monitoring plots (established in 2003-2006) listed as high quality sandhills and flatwoods habitat that were scheduled to burn in fiscal year 2012 (contact: Brett Williams, Wildland Fire Manager at Jackson Guard). Using a stem map of the overstory in the Jackson Guard monitoring plots, all groundcover monitoring plots were placed outside a 4 m buffer from any overstory tree. 
+			
+
+GROUNDCOVER MONITORING PLOTS: 
+Groundcover monitoring plots were 1m X 3m in size, oriented longwise north to south. Three plots were distributed within five sandhill burn units and five flatwoods burn units for a total of 30 groundcover monitoring plots. Each quadrat or 1m2 area within the plots were monitored at a 100 cm2 resolution using a 1m2 square frame. The square frame was a rigid aluminum frame with inside dimensions of 1m X 1m. Along the upper edge of the square, grooves were cut every ten centimeters so that 3 mm stainless steel rods were placed in a grid pattern. The outside portion of the square had four vertical sleeves at the corners that were lined up with two inside planes of the square. When establishing each quadrat, four one inch stainless steel rods were driven through the sleeves. The square frame was placed on two of the rods, then shifted twice across the 1m x 3m area to create a 10 x 300 cell grid with a 100 cm2 resolution. Monitoring began in the lower southwest corner of the quadrat moving east through the row and then to the next row north. Presence was recorded for each species found in an individual cell. 
+		
+				
+VARIABLE DESCRIPTIONS: 				
+Data sets				Variable Name		Variable Description								Variables		
+Groundcover simulation data 2012-2016	PLOT			Project plot number.								1-30
+Groundcover simulation data 2012-2016	YEAR			Year monitoring took place.							2012-2016
+Groundcover simulation data 2012-2016	HABITAT			Habitat type of the plot.							flatwoods or sandhills		
+Groundcover simulation data 2012-2016	ROW			Lateral row number of the square frame starting in the south progressing north.	1-30	
+Groundcover simulation data 2012-2016	COLUMN			Column number beginning in the west progressing east by row.			1-10	
+Groundcover simulation data 2012-2016	CODE			Species code representing each plant species.					see plant species list below
+		
+
+DATA ANOMALIES:				
+Sandhill plots 18, 23, 28 were burned out of sequence and not used in neutral modeling.			
+Plot 10 sustained coyote/hog damage through its southern half prior to 2015 sampling. 	
+There are "cells" or row-column combinations with no species present (no plant in cell) and others with multiple plants found in a cell.											
+				
+DATA ENTRY:				
+Location of raw data:	N/A			
+Data entry and QA/QC:	Data was entered into Microsoft Excel from hardcopies of recorded data, each on a separate worksheet. The worksheets were compared on a third worksheet and hardcopies were referenced for changes. Once all corrections were made, a final worksheet was transposed and added to the master vegetation file. Beginning in 2013, copies of the previous years data were taken into the field to check for accuracy. Additionally, all data was copied to a separate worksheet following initial entry and species code data was sorted alphabetically. Any misspelled species codes were corrected in the master file.			
+				
+Plant species list				
+SPECIES CODE	Genus	Species			
+ACAGRA	Acalypha 		gracilens			
+ACERUB	Acer 			rubrum			
+AGADIV	Agalinis 		divaricata 			
+AGAFAS	Agalinis 		fasciculata			
+AGASET	Agalinis 		setacea			
+AGEARO	Ageratina 		aromatica			
+ALBJUL	Albizia 		julibrissin			
+ALELUT	Aletris 		lutea			
+ALLCAN	Allium 			canadense			
+ANDGLO	Andropogon 		glomeratus			
+ANDGYR	Andropogon 		gyrans			
+ANDSPP	Andropogon 		spp.			
+ANDTER	Andropogon 		ternarius			
+ANDVIR	Andropogon 		virginicus			
+ANTRUF	Anthaenantia 		rufa			
+ANTVIL	Anthaenantia 		villosa			
+ARICON	Aristida 		condensata			
+ARILAN	Aristida 		lanosa			
+ARILON	Aristida 		longespica			
+ARIMOH	Aristida 		mohrii			
+ARIPAL	Aristida 		palustris			
+ARIPUR	Aristida 		purpurascens			
+ARISTR	Aristida 		stricta			
+ARISER	Aristolochia 		serpentaria			
+ARUGIG	Arundinaria 		gigantea			
+ASCCIN	Asclepias 		cinerea			
+ASCCON	Asclepias 		connivens			
+ASCHUM	Asclepias 		humistrata			
+ASCTUB	Asclepias 		tuberosa			
+ASCVER	Asclepias 		verticillata			
+AXOFIS	Axonopus 		fissifolius			
+BACHAL	Baccharis 		halimifolia			
+BALANG	Balduina 		angustifolia			
+BALUNI	Balduina 		uniflora			
+BAPCAL	Baptisia 		calycosa			
+BAPLAN	Baptisia 		lanceolata			
+BERPUM	Berlandiera 		pumila			
+BIGNUD	Bigelowia 		nudata			
+BIGNUT	Bigelowia 		nuttallii			
+BULCIL	Bulbostylis 		ciliatifolia			
+BULWAR	Bulbostylis 		warei			
+CALCOC	Calamintha 		coccinea			
+CALDEN	Calamintha 		dentata			
+CALAME	Callicarpa 		americana			
+CARTEN	Carex 			tenax			
+CARODO	Carphephorus 		odoratissimus			
+CASPUM	Castanea 		pumila			
+CEAMIC	Ceanothus 		microphyllus 			
+CENVIR	Centrosema 		virginianum			
+CHAFAS	Chamaecrista 		fasciculata			
+CHANIC	Chamaecrista 		nictitans			
+CHATOM	Chaptalia 		tomentosa			
+CHRPAU	Chrysoma 		pauciflosculosa			
+CHRGOS	Chrysopsis 		gossypina			
+CLERET	Clematis 		reticulata			
+CLEALN	Clethra 		alnifolia			
+CLIMON	Cliftonia 		monophylla			
+CLIMAR	Clitoria 		mariana			
+CNISTI	Cnidoscolus 		stimulosus			
+COMERE	Commelina 		erecta			
+CONCAN	Conyza 			canadensis			
+CRAMIC	Crataegus 		michauxii			
+CRODIV	Croptilon 		divaricatum			
+CROPUR	Crotalaria 		purshii			
+CROROT	Crotalaria 		rotundifolia			
+CROARG	Croton 			argyranthemus			
+CTEARO	Ctenium 		aromaticum			
+CYPCRO	Cyperus 		croceus			
+CYPFIL	Cyperus 		filiculmis			
+CYPREF	Cyperus 		retrofractus			
+CYPRET	Cyperus 		retrorsus			
+CYRRAC	Cyrilla 		racemiflora			
+DALPIN	Dalea 			pinnata			
+DANSER	Danthonia 		sericea			
+DESCIL	Desmodium 		ciliare			
+DESFLO	Desmodium 		floridanum			
+DESLAE	Desmodium 		laevigatum			
+DESLIN	Desmodium 		lineatum			
+DESSTR	Desmodium 		strictum			
+DICACI	Dichanthelium 		aciculare			
+DICACU	Dichanthelium 		acuminatum			
+DICCHA	Dichanthelium 		chamaelonche			
+DICCOM	Dichanthelium 		commutatum			
+DICENS	Dichanthelium 		ensifolium			
+DICOLI	Dichanthelium 		oligosanthes			
+DICOVA	Dichanthelium 		ovale			
+DICPOR	Dichanthelium 		portoricense			
+DICRAV	Dichanthelium		ravenelii			
+DICSPH	Dichanthelium 		sphaerocarpon			
+DICSPP	Dichanthelium 		spp.			
+DICSTR	Dichanthelium 		strigosum			
+DIGCIL	Digitaria 		ciliaris			
+DIGCOG	Digitaria		cognata			
+DIGFIL	Digitaria 		filiformis			
+DIOTER	Diodia 			teres			
+DIOVIR	Diospyros 		virginiana			
+DROCAP	Drosera 		capillaris			
+DROTRA	Drosera 		tracyi			
+ELEELA	Elephantopus 		elatus			
+ERASPE	Eragrostis		spectabilis			
+ERASPP	Eragrostis		spp.			
+ERAVIR	Eragrostis		virginica			
+EREHIE	Erechtites		hieraciifolius			
+ERISTR	Erigeron		strigosus			
+ERITOM	Eriogonum 		tomentosum			
+ERYYUC	Eryngium 		yuccifolium			
+EUPCOM	Eupatorium 		compositifolium			
+EUPDIS	Euphorbia 		discoidalis			
+EUPFLO	Euphorbia 		floridana			
+EUTCAR	Euthamia 		caroliniana			
+FROFLO	Froelichia 		floridana			
+GALERE	Galactia 		erecta			
+GALREG	Galactia 		regularis			
+GALVOL	Galactia 		volubilis			
+GALHIS	Galium 			hispidulum			
+GALPIL	Galium 			pilosum			
+GAUFIL	Gaura 			filipes			
+GAYDUM	Gaylussacia 		dumosa			
+GAYFRO	Gaylussacia 		frondosa			
+GAYMOS	Gaylussacia 		mosieri			
+GELSEM	Gelsemium 		sempervirens			
+GRAHIS	Gratiola 		hispida 			
+GYMAMB	Gymnopogon 		ambiguus			
+GYMBRE	Gymnopogon 		brevifolius			
+HAMVIR	Hamamelis 		virginiana			
+HELCAR	Helianthemum 		carolinianum			
+HELRAD	Helianthus 		radula			
+HIEGRO	Hieracium 		gronovii			
+HOUPRO	Houstonia 		procumbens			
+HYPCRU	Hypericum 		crux-andreae			
+HYPGEN	Hypericum 		gentianoides			
+HYPHYP	Hypericum 		hypericoides			
+HYPTET	Hypericum 		tetrapetalum 			
+HYPJUN	Hypoxis 		juncea			
+ILEAMB	Ilex 			ambigua			
+ILECAS	Ilex 			cassine			
+ILECOR	Ilex 			coriacea			
+ILEDEC	Ilex 			decidua			
+ILEGLA	Ilex 			glabra			
+ILEOPA	Ilex 			opaca			
+ILEVOM	Ilex 			vomitoria			
+IONLIN	Ionactis 		linariifolius			
+IRIVER	Iris 			verna			
+JUNDIC	Juncus 			dichotomus			
+JUNMAR	Juncus 			marginatus			
+KALHIR	Kalmia 			hirsuta			
+KRALAN	Krameria 		lanceolata			
+LACBEY	Lachnocaulon 		beyrichianum			
+LECSES	Lechea 			sessiliflora			
+LESCAP	Lespedeza 		capitata			
+LESHIR	Lespedeza 		hirta			
+LESREP	Lespedeza 		repens			
+LIAELE	Liatris 		elegans			
+LIAGRA	Liatris 		graminifolia			
+LIASEC	Liatris 		secunda			
+LIATEN	Liatris 		tenuifolia			
+LICMIC	Licania 		michauxii			
+LINFLO	Linum 			floridanum			
+LOBBRE	Lobelia 		brevifolia			
+LUDVIR	Ludwigia 		virgata			
+LUPDIF	Lupinus 		diffusus			
+LYOLUC	Lyonia 			lucida			
+MAGGRA	Magnolia 		grandiflora 			
+MAGVIR	Magnolia 		virginiana			
+MIMQUA	Mimosa 			quadrivalvis			
+MINCAR	Minuartia 		caroliniana			
+MITREP	Mitchella 		repens 			
+MUHCAP	Muhlenbergia 		capillaris			
+MYRCER	Myrica 			cerifera			
+OPUHUM	Opuntia 		humifusa			
+OPUPUS	Opuntia 		pusilla			
+PANVER	Panicum 		verrucosum			
+PANVIR	Panicum 		virgatum			
+PARPAT	Paronychia 		patula 			
+PASPRA	Paspalum 		praecox			
+PASSET	Paspalum 		setaceum			
+PEDCAN	Pediomelum 		canescens			
+PENAUS	Penstemon 		australis			
+PERBOR	Persea 			borbonia			
+PERPAL	Persea 			palustris			
+PHYANG	Physalis 		angustifolia			
+PHYARE	Physalis 		arenicola			
+PHYLON	Physalis 		longifolia			
+PHYAME	Phytolacca 		americana			
+PINCLA	Pinus 			clausa			
+PINPAL	Pinus 			palustris			
+PITASP	Pityopsis 		aspera			
+PITGRA	Pityopsis 		graminifolia			
+PITOLI	Pityopsis 		oligantha			
+POLLUT	Polygala 		lutea			
+POLNAN	Polygala 		nana			
+POLPOL	Polygala 		polygama			
+POLGRA	Polygonella 		gracilis 			
+POLPRO	Polypremum 		procumbens			
+PRUANG	Prunus 			angustifolia			
+PRUCAR	Prunus 			caroliniana			
+PRUSER	Prunus 			serotina			
+PSEOBT	Pseudognaphalium 	obtusifolium			
+PTEAQU	Pteridium 		aquilinum			
+PTEPYC	Pterocaulon 		pycnostachyum			
+PYCPYC	Pycnanthemum 		pycnanthemum			
+QUECHA	Quercus 		chapmanii			
+QUEGEM	Quercus 		geminata			
+QUEINC	Quercus 		incana			
+QUELAE	Quercus 		laevis			
+QUELAU	Quercus 		laurifolia			
+QUEMAR	Quercus 		margaretta			
+QUEMIN	Quercus 		minima			
+QUEMYR	Quercus 		myrtifolia			
+QUESPP	Quercus 		spp.			
+RHEALI	Rhexia 			alifanus			
+RHELUT	Rhexia 			lutea			
+RHEMAR	Rhexia 			mariana			
+RHEPET	Rhexia 			petiolata			
+RHUCOP	Rhus 			copallinum			
+RHYCYT	Rhynchosia 		cytisoides			
+RHYREN	Rhynchosia 		reniformis			
+RHYBAL	Rhynchospora 		baldwinii			
+RHYGRA	Rhynchospora 		grayi			
+RHYPLU	Rhynchospora 		plumosa			
+RUBCUN	Rubus 			cuneifolius			
+RUECAR	Ruellia 		caroliniensis			
+SALAZU	Salvia 			azurea			
+SASALB	Sassafras 		albidum			
+SCHSAN	Schizachyrium 		sanguineum			
+SCHSCO	Schizachyrium 		scoparium			
+SCHTEN	Schizachyrium 		tenerum			
+SCLCIL	Scleria 		ciliata			
+SCLTRI	Scleria 		triglomerata			
+SCUINC	Scutellaria 		incana			
+SERREP	Serenoa 		repens			
+SERTOR	Sericocarpus 		tortifolius			
+SEYCAS	Seymeria 		cassioides			
+SIDLAN	Sideroxylon 		lanuginosum			
+SILCOM	Silphium 		compositum			
+SISNAS	Sisyrinchium 		nashii			
+SMIAUR	Smilax 			auriculata			
+SMIBON	Smilax 			bona-nox			
+SMIGLA	Smilax 			glauca			
+SMILAU	Smilax 			laurifolia			
+SMIPUM	Smilax 			pumila			
+SMISMA	Smilax 			smallii			
+SOLODO	Solidago 		odora			
+SORNUT	Sorghastrum 		nutans			
+SORSEC	Sorghastrum 		secundum			
+SPOCOM	Sporobolus 		compositus			
+SPOJUN	Sporobolus 		junceus			
+STISYL	Stillingia 		sylvatica			
+STISET	Stipulicida 		setacea			
+STYPAT	Stylisma 		patens			
+STYBIF	Stylosanthes 		biflora			
+SYMADN	Symphyotrichum 		adnatum			
+SYMCON	Symphyotrichum 		concolor			
+SYMDUM	Symphyotrichum 		dumosum			
+TEPCHR	Tephrosia 		chrysophylla			
+TEPFLO	Tephrosia 		florida			
+TEPHIS	Tephrosia 		hispidula 			
+TEPSPI	Tephrosia 		spicata			
+TEPVIR	Tephrosia 		virginiana			
+TRAHIR	Tradescantia 		hirsutiflora			
+TRASMA	Tragia 			smallii			
+TRAURE	Tragia 			urens			
+TRISET	Trichostema 		setaceum			
+TRIAME	Triplasis 		americana			
+VACARB	Vaccinium 		arboreum			
+VACCOR	Vaccinium 		corymbosum			
+VACDAR	Vaccinium 		darrowii			
+VACSTA	Vaccinium 		spp.			
+VERANG	Vernonia 		angustifolia			
+VIOPAL	Viola 			palmata			
+VITROT	Vitis 			rotundifolia			
+XYRBRE	Xyris 			brevifolia			
+XYRCAR	Xyris 			caroliniana			
+XYRELL	Xyris 			elliottii			
+YUCFIL	Yucca 			filamentosa			
